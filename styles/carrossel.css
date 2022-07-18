@@ -1,0 +1,166 @@
+.carrossel-titulo {
+    color:  #EB9B00;
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1em 0 0.5em 0;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.swiper-slide img {
+width: 100%;
+}
+
+.swiper-button-prev {
+    display: none;
+}
+
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination{
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card-descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-botoes {
+    display: flex;
+    justify-content:space-between;
+}
+.botoes{
+    display: flex;
+    justify-content: space-betweens;
+    
+}
+.card{
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin: 1em;
+padding: 1em;
+}
+
+.descricao-titulo{
+    color:  #EB9B00;
+    font-weight: 700;
+}
+
+.descricao-titulo-livro{
+    color: #002f52;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1em 0 1em 0;
+}
+
+.descricao-texto{
+    font-size: 14px;
+    margin: 1em 0 1em 0;
+}
+
+.botao-item{
+    margin: 0 0.5em;
+    
+}
+
+.botoes{
+    margin-top: 0.6em;
+}
+
+.botao-ancora {
+    background-color:  #EB9B00;
+    padding: 1em 2.2em;
+   color: #FFFFFF;
+   text-decoration: none;
+   font-weight: 700;
+   border-radius: 0.5em;
+   margin-top: 0.5em;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+.carrossel-titulo{
+    font-size: 26px;
+}
+
+
+.swiper-pagination{
+    margin: 2em 0 3em 0;
+}
+
+.swiper-button-prev {
+    display: block;
+    top: 60%
+}
+
+.swiper-button-next {
+    display: block;
+    top: 60%
+}
+
+.swiper{
+    width: 60%;
+}
+
+.card{
+
+    width: 40%;
+    margin: 2em auto;
+}
+
+
+
+}
+
+@media screen and (min-width: 1728px) {
+
+    .carrossel-container{
+        display: flex;
+        margin: 0 20vw 3vw 20vw;
+        align-items: center;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .swiper{
+       width: 70%;}
+
+    .card{
+        margin-top: 5em;
+    }
+
+    a.botao-ancora{
+        margin: 0;
+        margin-top: 1em;
+    }
+
+    .descricao-titulo{
+        font-size: 27px;
+    }
+
+    .descricao-texto {
+        font-size: 16px;
+    }
+
+    .card{
+        width: 60%;
+        margin-left: 3em;
+    }
+
+    .descricao-titulo{
+        margin-right: 1em;
+    }
+
+
+
+}
